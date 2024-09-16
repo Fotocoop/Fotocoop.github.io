@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100vw;
+  background: #DDD;
+}
+
+/*Menú*/
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  background-color: #FFF;
+  height: 4px;
+  width: 25px;
+  margin: 3px 0;
+  border-radius: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo img {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+  border-radius: 25px;
+}
+
+.nombre-empresa {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.menu {
+  color: #FFF;
+  display: flex;
+  list-style-type: none;
+}
+
+.menu li a {
+  padding: 0px 15px;
+  text-decoration: none;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.menu li a:hover {
+  color: #48e;
+}
+
+/*Página principal*/
+
+h1 {
+  color: #000;
+  margin: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.introduccion {
+  font-size: 17px;
+  margin: 20px 35px;
+  text-align: justify;
+}
+
+.seccion_precios {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.seccion_precios img {
+  width: 75px;
+}
+
+.seccion_precios img:hover {
+  transform: scale(1.05);
+}
+
+/*Sobre Nosotros*/
+
+.concepto {
+  margin: 20px 35px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contactanos {
+  margin: auto;
+  text-align: center;
+}
+
+/*Sección enlaces a otras páginas*/
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.container img {
+  margin: 15px;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.container img:hover {
+  transform: scale(1.05);
+  border-color: #333;
+}
+
+.container a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+/*Páginas Galería de imágenes*/
+
+.h1_galerias {
+  margin: 0;
+  background-color: #333;
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin: 20px;
+  margin-bottom: 75px;
+}
+
+.gallery img {
+  margin: 20px;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  border-color: #333;
+}
+
+.img-large {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+/*Tabla precios */
+
+.pricing-table {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin: 20px;
+  margin-bottom: 75px;
+}
+
+.pricing-plan {
+  background: #FFF;
+  border: 1px solid #DDD;
+  border-radius: 10px;
+  width: 300px;
+  height: 500px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.pricing-plan h2 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+hr {
+  margin: 10px;
+}
+
+.pricing-plan p {
+  margin: 10px 0;
+  font-size: 17px;
+}
+
+.pricing-plan .price {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.pricing-plan .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 17px;
+  box-sizing: border-box;
+}
+
+.pricing-plan .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Sección de contactos */
+
+.contactos {
+  margin: 20px;
+  margin-bottom: 75px;
+}
+
+.p_contactanos {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.redes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imagen {
+  display: flex;
+  text-decoration: none;
+  color: #000;
+  align-items: center;
+}
+
+.imagen img {
+  display: flex;
+  height: 35px;
+  width: 35px;
+  border-radius: 35px;
+  margin-right: 10px;
+}
+
+/*Formulario de pago*/
+
+.formulario_pago {
+  background: #FFF;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  width: 50vw;
+  margin: 20px auto;
+  margin-bottom: 75px;
+}
+
+/*Formularios Iniciar Sesión*/
+
+.formularios {
+  align-items: stretch;
+  display: flex;
+  justify-content: center;
+  width: 70vw;
+  margin: 20px auto;
+  margin-bottom: 75px;
+}
+
+.imagenformulario img {
+  width: 20vw;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 0 0 10px;
+}
+
+.formulario {
+  background: #FFF;
+  padding: 20px;
+  border-radius: 0 10px 10px 0;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50vw;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  width: 50%;
+  height: 40px;
+  font-size: 17px;
+  font-weight: bold;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #FFF;
+  border: none;
+  background-color: #28a745;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  padding: 0 10px;
+  font-size: 17px;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  margin: 10px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: 1px solid #CCC;
+  border-radius: 10px;
+}
+
+.p_formulario_iniciar_sesion {
+  margin: 10px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.link_formulario_iniciar_sesion {
+  margin: 10px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: #48e;
+  font-weight: bold;
+}
+
+.password-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  margin: 10px 0;
+}
+
+.password-input input {
+  width: calc(100% - 60px);
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.password-input img {
+  width: 40px;
+  margin: 10px;
+}
+/*Contador de vistas*/
+
+.contador {
+  background: #FFF;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 75px;
+  width: 50vw;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center; 
+}
+
+.p_contador {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+
+#vistacontador {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000;
+  margin: 10px;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #333;
+  color: #FFF;
+  text-align: center;
+  padding: 20px;
+  width: 100vw;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  font-size: 17px;
+}
