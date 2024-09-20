@@ -1,93 +1,67 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fotocoop</title>
-  <link rel="stylesheet" href="estilos.css" type="text/css" />
-  <link rel="stylesheet" href="estilos_responsive.css" type="text/css">
-  <link rel="icon" href="imagenes/logo/logo.png" type="image/png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FotoCoop</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilos_responsive.css" />
 </head>
-
 <body>
+    <!-- Menú de navegación -->
   <header>
-    <nav class="navbar">
-      <div class="menu-toggle" onclick="toggleMenu()">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
-
-      <a href="index.html" class="logo">
-        <img src="imagenes/logo/logo.png" alt="Logo de la empresa" />
-        <p class="nombre-empresa">Fotocoop</p>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="index.html">
+        <img src="Logo.jpeg" class="nombre" alt="Logo">
+        FotoCoop
       </a>
 
-      <ul class="menu">
-        <li>
-          <a href="index.html">Inicio</a>
-        </li>
-        <li>
-          <a href="paginas/galeria.html">Galería</a>
-        </li>
-        <li>
-          <a href="paginas/precios.html">Precios</a>
-        </li>
-        <li>
-          <a href="paginas/sobre_nosotros.html">Sobre Nosotros</a>
-        </li>
-        <li>
-          <a href="paginas/iniciar_sesion.html">Iniciar Sesión</a>
-        </li>
-      </ul>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav  ml-auto">
+          <li class="nav-item">
+            <a class="nav-link enlace" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link enlace" href="ubicacion.html">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link enlace" href="sobrenosotros.html">Sobre Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link enlace" href="eventos.html">Iniciar Sesión</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav social-icons d-flex align-items-center ml-auto">
+          <li class="nav-item siguenos">Siguenos</li>
+          <li class="nav-item ">
+            <a class="nav-link" href="https://www.facebook.com/"><img src="logo_facebook.png"
+                alt="Enlace de Facebook" class=" align-center nombre"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/"><img src="logo_instagram.png"
+                alt="Enlace a Instagram" class=" align-center nombre" /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=""> <img src="logo_whatsapp.png" alt="Enlace a WhatsApp"
+                class=" align-center nombre" /></a>
+          </li>
+        </ul>
+      </div>
     </nav>
   </header>
 
-  <h1>Fotocoop</h1>
-
-  <p class="introduccion">
-    Somos un estudio fotográfico dedicado a la fotografía creativa de animales
-    domésticos, que ofrecemos nuestros servicios para brindarles la mejor experiencia
-    inmortalizando a sus mascotas en tomas únicas y creativas que reflejan tanto su
-    personalidad y gustos, así como realzar los atributos, carisma y virtudes de sus
-    pequeños amiguitos. Trabajamos tanto con sus mascotas como tomas conjuntas con
-    sus compañeros animal en su vida diaria.
-  </p>
-
-  <p class="introduccion">
-    en nuestras compañia tenemos diversos paquetes para el cliente pueda observa y si encuentra uno de su gusto poder
-    agendarlo al comprarlo solo con precionar el siguiente icono:
-  </p>
-
-  <a href="paginas/precios.html" class="seccion_precios">
-    <img src="imagenes/iconos/icono_carrito.png" alt="">
-  </a>
-
-  <main>
-    <div class="container">
-      <a href="paginas/fotos_perros.html">
-        <img src="imagenes/perros/perro1.jpg" alt="Perros" class="img-large">
-        <p>Perros</p>
-      </a>
-
-      <a href="paginas/fotos_gatos.html">
-        <img src="imagenes/gatos/gato1.jpg" alt="Gatos" class="img-large">
-        <p>Gatos</p>
-      </a>
-
-      <a href="paginas/fotos_aves.html">
-        <img src="imagenes/aves/ave3.jpg" alt="Aves" class="img-large">
-        <p>Aves</p>
-      </a>
-    </div>
-  </main>
-
-  <footer>
-    <p>&copy; 2024 Fotocoop. Todos los derechos reservados.</p>
-  </footer>
-
-  <script src="js/script.js"></script>
+    <!-- Bootstrap JS, Popper.js, and jQuery desde CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>
