@@ -1,4 +1,4 @@
-@media (max-width: 991px) {
+@media (max-width: 1000px) {
     /* Menu de navegacion */
 
   .navbar {
@@ -11,9 +11,8 @@
   }
 
   .nombre {
-    height: 30px;
-    width: 30px;
-    border-radius: 15px;
+    height: 75px;
+    width: 100px;
     margin-right: 5px;
   }
 
@@ -26,5 +25,4 @@
     flex-direction: row;
     width: 100%;
   }
-
 }
