@@ -25,4 +25,45 @@
     flex-direction: row;
     width: 100%;
   }
+
+  /*Página principal*/
+
+  main {
+    margin-bottom: 150px;
+  }
+
+  .concepto {
+    margin: 10px 50px;
+  }
+
+  .introduccion {
+    margin: 10px 50px;
+  }
+
+   /* Sección contactanos */
+
+  .redes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+  }
+
+  .imagen {
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    align-items: center;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+
+  .imagen img {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    margin-right: 10px;
+  }
+
 }

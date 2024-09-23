@@ -7,6 +7,9 @@
 
   body {
     height: 100%;
+    overflow-x: hidden;
+    width: 100vw;
+    background: #FFF;
   }
   
   .navbar {
@@ -66,16 +69,23 @@
 
   .introduccion {
     font-size: 17px;
-    margin: 20px 35px;
+    margin: 10px 100px;
     text-align: justify;
+    color: #000;
+  }
+
+  main {
+    margin-top: 30px;
+    margin-bottom: 100px;
   }
 
   /*Sobre Nosotros*/
 
 .concepto {
-  margin: 20px 35px;
+  margin: 10px 100px;
   font-size: 20px;
   font-weight: bold;
+  color: #000;
 }
 
 .contactanos {
