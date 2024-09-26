@@ -1,5 +1,5 @@
 @media (max-width: 991px) {
-    /* Menu de navegacion */
+  /* Menu de navegacion */
 
   .navbar {
     font-size: 20px !important;
@@ -40,7 +40,7 @@
     margin: 10px 50px;
   }
 
-   /* Sección contactanos */
+  /* Sección contactanos */
 
   .redes {
     display: flex;
@@ -106,6 +106,14 @@
   .boton_formulario {
     margin-top: 20px;
     width: 60%;
+  }
+
+  @media only screen and (max-width: 550px) {
+    /*Formulario Iniciar Sesión*/
+
+    .formulario {
+      width: 80vw;
+    }
   }
 
 }
