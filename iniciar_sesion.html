@@ -2,17 +2,17 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FotoCoop</title>
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="estilo.css" />
-  <link rel="stylesheet" type="text/css" href="estilos_responsive.css" />
-  <link rel="icon" href="favicon.png" type="image/png" />
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilos_responsive.css" />
+    <link rel="icon" href="favicon.png" type="image/png" />
+  </head>
 
 <body>
-  <!-- Menú de navegación -->
+    <!-- Menú de navegación -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="index.html">
@@ -60,33 +60,46 @@
     </nav>
   </header>
 
-  <main>
-    <p class="introduccion">
-      Somos una cooperativa única que conecta a los jóvenes fotográfos, tanto profesionales como aficionados con
-      clientes
-      que buscan servicios de fotografía personalizados y de alta calidad para sus eventos especiales. La pasión por la
-      fotografía es el motor que impulsa a nuestros miembros, quienes encuentran en esta cooperativa un espacio para
-      crecer, aprender, y ofrecer su talento al mundo.
-    </p>
-
-    <br>
-
-    <p class="introduccion">
-      Al ser una cooperativa, nuestra empresa promueve un modelo de negocio inclusivo y equitativo. Los fotógrafos que
-      forman parte de nuestra comunidad tienen la oportunidad de participar activamente en las decisiones de la
-      cooperativa, lo que les permite influir en la dirección y crecimiento de la empresa. Este enfoque colaborativo
-      fomenta un ambiente de trabajo justo y motivador, donde cada fotógrafo se siente valorado y apoyado.
-    </p>
     <main>
-      
-    <footer>
-      <p>&copy; 2024 Asociación Corporativa FotoCoop de R.L. Todos los derechos reservados.</p>
-    </footer>
+        <div class="formularios">
+            <div class="imagenformulario">
+                <img src="Mascota.jpeg" alt="Mascota" >
+            </div>
+            <form action="" class="formulario">
+              <fieldset>
+                <legend>Iniciar Sesión</legend>
+        
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuario" required />
+                <label for="password">Contraseña</label>
+                <div class="password-input">
+                  <input type="password" id="password" required
+                    pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()-_+=])[A-Za-z\d!@#$%^&*()-_+=]{8,}$" />
+                  <span class="toggle-password" onclick="togglePasswordVisibility()">
+                    <img src="icono_ojo.png" alt="Icono mostrar/ocultar contraseña" />
+                  </span>
+                </div>
+        
+                <button type="submit" class="boton_formulario">Iniciar Sesión</button>
+        
+                <p class="p_formulario_iniciar_sesion">¿Olvidaste tus datos?</p>
+                <a href="recuperar_cuenta.html" class="link_formulario_iniciar_sesion">Recuperar acceso a mi cuenta</a>
+                <p class="p_formulario_iniciar_sesion">¿No tienes una cuenta?</p>
+                <a href="registrarse.html" class="link_formulario_iniciar_sesion">Crear cuenta aquí</a>
+              </fieldset>
+            </form>
+        </div>
+      </main>
 
-    <!-- Bootstrap JS, Popper.js, and jQuery desde CDN -->
+          <!-- Bootstrap JS, Popper.js, and jQuery desde CDN -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
 
+    <script src="script.js"></script>
+
+    <footer>
+        <p>&copy; 2024 Fotocoop. Todos los derechos reservados.</p>
+    </footer>
+</body>
 </html>

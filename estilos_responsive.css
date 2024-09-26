@@ -1,4 +1,4 @@
-@media (max-width: 1000px) {
+@media (max-width: 991px) {
     /* Menu de navegacion */
 
   .navbar {
@@ -64,6 +64,48 @@
     width: 30px;
     border-radius: 30px;
     margin-right: 10px;
+  }
+
+  /*Formulario Iniciar Sesión*/
+
+  .formularios {
+    width: 100vw;
+    margin-bottom: 100px;
+  }
+
+  .formulario {
+    border-radius: 10px 10px 10px 10px;
+    width: 70vw;
+  }
+
+  .imagenformulario img {
+    display: none;
+  }
+
+  input {
+    height: 35px;
+  }
+
+  .password-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    margin: 10px 0;
+  }
+
+  .password-input input {
+    width: calc(100% - 45px);
+  }
+
+  .password-input img {
+    width: 35px;
+    margin: 5px;
+  }
+
+  .boton_formulario {
+    margin-top: 20px;
+    width: 60%;
   }
 
 }
