@@ -28,10 +28,6 @@
 
   /*Página principal*/
 
-  main {
-    margin-bottom: 150px;
-  }
-
   .concepto {
     margin: 10px 50px;
   }
@@ -67,11 +63,6 @@
   }
 
   /*Formulario Iniciar Sesión*/
-
-  .formularios {
-    width: 100vw;
-    margin-bottom: 100px;
-  }
 
   .formulario {
     border-radius: 10px 10px 10px 10px;
@@ -115,5 +106,4 @@
       width: 80vw;
     }
   }
-
 }

@@ -13,7 +13,7 @@
   }
   
   .navbar {
-    background-color: #2A2B26;
+    background-color: #2C3E54;
     font-size: 21px !important;
   }
   
@@ -75,8 +75,7 @@
   }
 
   main {
-    margin-top: 30px;
-    margin-bottom: 100px;
+    margin: 20px
   }
 
   /*Sobre Nosotros*/
@@ -97,7 +96,6 @@
 
 .contactos {
   margin: 20px;
-  margin-bottom: 75px;
 }
 
 .p_contactanos {
@@ -192,7 +190,7 @@ input {
   padding: 5px 10px;
   box-sizing: border-box;
   font-size: 17px;
-  border: 1px solid #CCC;
+  border: 1px solid #666;
   border-radius: 10px;
 }
 
@@ -233,13 +231,11 @@ input {
   /*Footer*/
 
 footer {
-  background-color: #2A2B26;
+  background-color: #2C3E54;
   color: #FFF;
   text-align: center;
   padding: 20px;
   width: 100vw;
   box-sizing: border-box;
-  position: fixed;
-  bottom: 0;
   font-size: 17px;
 }
