@@ -15,6 +15,7 @@
   .navbar {
     background-color: #2C3E54;
     font-size: 21px !important;
+    padding: auto 50px;
   }
   
   .navbar-brand,
@@ -40,7 +41,7 @@
   .enlace:hover {
     color: orange !important;
   }
-  
+
   .navbar-toggler {
     border-color: rgba(255, 255, 255, 0.1);
   }
@@ -49,22 +50,6 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
   
-  .social-icons {
-    display: flex;
-    width: auto;
-  }
-  
-  .social-icons img {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-  }
-  
-  .siguenos {
-    color: #FFF;
-    font-weight: bold;
-  }
-
   /*Página principal*/
 
   .introduccion {
@@ -110,10 +95,11 @@
   justify-content: space-evenly;
 }
 
+
 .imagen {
   display: flex;
   text-decoration: none;
-  color: #000;
+  color: #fff;
   align-items: center;
 }
 
@@ -231,7 +217,7 @@ input {
   /*Footer*/
 
 footer {
-  background-color: #2C3E54;
+  background-color: #333;
   color: #FFF;
   text-align: center;
   padding: 20px;
