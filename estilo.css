@@ -63,6 +63,15 @@
     margin: 20px
   }
 
+  .edificio 
+  {
+    display: block;
+    margin: auto;
+    width: 70vw;
+    height: 400px;
+    object-fit: cover;
+  }
+
   /*Sobre Nosotros*/
 
 .concepto {

@@ -26,6 +26,13 @@
     margin: 10px 50px;
   }
 
+  .edificio 
+  {
+    width: 70vw;
+    height: 150px;
+    object-fit: cover;
+  }
+
   /* Sección contactanos */
 
   .redes {
@@ -38,7 +45,7 @@
   .imagen {
     display: flex;
     text-decoration: none;
-    color: #000;
+    color: #FFF;
     align-items: center;
     width: 200px;
     margin-bottom: 10px;
