@@ -5,6 +5,11 @@
     font-family: sans-serif;
   }
 
+  @font-face {
+    font-family: "Regular";
+    src: url(./ShadowsIntoLight-Regular.ttf) format("truetype");
+  }
+
   body {
     height: 100%;
     overflow-x: hidden;
@@ -13,15 +18,17 @@
   }
   
   .navbar {
-    background-color: #2C3E54;
+    background-color: #4682B4;
     font-size: 21px !important;
-    padding: auto 50px;
   }
   
   .navbar-brand,
   .nav-link {
     color: #FFF !important;
-    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 15px;
+    padding: 0;
+    font-style: italic;
   }
   
   .navbar-brand {
@@ -52,6 +59,18 @@
   
   /*Página principal*/
 
+  .eslogan
+  {
+    font-size: 22px;
+    margin: 10px 100px;
+    text-align: center;
+    color: #FFF;
+    background-color: #1ABC9C;
+    border-radius: 25px;
+    padding: 5px;
+    font-family: "Regular";
+  }
+
   .introduccion {
     font-size: 17px;
     margin: 10px 100px;
@@ -74,16 +93,50 @@
 
   /*Sobre Nosotros*/
 
-.concepto {
-  margin: 10px 100px;
+  .sobre_nosotros
+  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .contenedor 
+  {
+    margin: 20px;
+    width: 400px;
+    box-shadow: 5px 5px 5px 5px #AAA;
+    border-radius: 10px;
+  }
+
+.concepto_sobre_nosotros {
+  margin: 10px;
   font-size: 20px;
   font-weight: bold;
+  color: #2C3E54;
+  font-style: italic;
+}
+
+.introduccion_sobre_nosotros
+{
+  font-size: 17px;
+  margin: 10px;
+  text-align: justify;
   color: #000;
 }
 
 .contactanos {
   margin: auto;
   text-align: center;
+}
+
+.mascota 
+{
+  display: block;
+  margin: 10px auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
 }
 
 /* Sección de contactos */
@@ -120,7 +173,21 @@
   margin-right: 10px;
 }
 
+.imagen:hover
+{
+  color: orange !important;
+  text-decoration: none !important;
+}
+
 /*Formularios Iniciar Sesión*/
+
+.introduccion_formulario
+{
+  font-size: 17px;
+  margin: 10px 100px;
+  text-align: center;
+  color: #000;
+}
 
 .formularios {
   align-items: stretch;
