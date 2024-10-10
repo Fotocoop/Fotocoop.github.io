@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: "Regular";
-  src: url(./ShadowsIntoLight-Regular.ttf) format("truetype");
+  src: url(./ChakraPetch-Medium.ttf) format("truetype");
 }
 
 body {
@@ -34,6 +34,7 @@ body {
 .navbar-brand {
   display: flex;
   align-items: center;
+  font-size: 25px !important;
 }
 
 .navbar-brand {
@@ -64,8 +65,8 @@ body {
   margin: 10px 100px;
   text-align: center;
   color: #FFF;
-  background-color: #1ABC9C;
-  border-radius: 25px;
+  background-color: #84b6f4;
+  border-radius: 10px;
   padding: 5px;
   font-family: "Regular";
 }
@@ -81,12 +82,13 @@ main {
   margin: 20px
 }
 
-.edificio {
+.portada {
   display: block;
   margin: auto;
   width: 70vw;
-  height: 400px;
+  height: 300px;
   object-fit: cover;
+  border-radius: 10px
 }
 
 /*Sobre Nosotros*/
@@ -100,7 +102,7 @@ main {
 
 .contenedor {
   margin: 20px;
-  width: 400px;
+  width: 600px;
   box-shadow: 5px 5px 5px 5px #AAA;
   border-radius: 10px;
 }
@@ -123,8 +125,16 @@ main {
 .mascota {
   display: block;
   margin: 10px auto;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.ubicacion {
+  display: block;
+  margin: 10px auto;
+  width: 300px;
+  height: 300px;
   border-radius: 10px;
 }
 
@@ -160,6 +170,7 @@ main {
   box-sizing: border-box;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 50vw;
+  box-shadow: 5px 5px 5px 5px #AAA;
 }
 
 .boton_formulario {
