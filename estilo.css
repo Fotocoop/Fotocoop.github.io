@@ -18,17 +18,16 @@ body {
 }
 
 .navbar {
-  background-color: #4682B4;
+  background-color: #123060;
   font-size: 21px !important;
 }
 
 .navbar-brand,
 .nav-link {
   color: #FFF !important;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Regular";
   margin: 0 15px;
   padding: 0;
-  font-style: italic;
 }
 
 .navbar-brand {
@@ -65,7 +64,7 @@ body {
   margin: 10px 100px;
   text-align: center;
   color: #FFF;
-  background-color: #84b6f4;
+  background-color: #48E;
   border-radius: 10px;
   padding: 5px;
   font-family: "Regular";
@@ -96,7 +95,7 @@ main {
 .sobre_nosotros {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: space-evenly;
 }
 
@@ -111,7 +110,7 @@ main {
   margin: 20px;
   font-size: 20px;
   font-weight: bold;
-  color: #2C3E54;
+  color: #48E;
   font-style: italic;
 }
 
@@ -197,6 +196,8 @@ legend {
   font-weight: bold;
   text-align: center;
   margin-bottom: 20px;
+  color: #171718;
+  font-family: "Regular";
 }
 
 label {
@@ -226,7 +227,7 @@ input {
   display: block;
   text-decoration: none;
   text-align: center;
-  color: #48e;
+  color: #8B0000;
   font-weight: bold;
 }
 
@@ -291,7 +292,7 @@ input {
 /*Footer*/
 
 footer {
-  background-color: #333;
+  background-color: #1f2124;
   color: #FFF;
   text-align: center;
   padding: 20px;

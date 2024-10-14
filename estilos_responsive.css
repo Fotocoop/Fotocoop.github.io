@@ -19,13 +19,10 @@
 
   /*Página principal*/
 
-  .eslogan
-  {
+  .eslogan {
     font-size: 22px;
     margin: 10px auto;
     text-align: center;
-    color: #FFF;
-    background-color: #84b6f4;
     border-radius: 25px;
     padding: 5px;
     font-family: "Regular";
@@ -38,14 +35,21 @@
   }
 
   .introduccion {
-    margin: 10px 50px;
+    margin: 10px 40px;
   }
 
-  .edificio 
-  {
-    width: 80vw;
-    height: 150px;
-    object-fit: cover;
+  /*Sobre Nosotros*/
+
+  .mascota {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+  }
+
+  .ubicacion {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
   }
 
   /* Sección contactanos */
@@ -76,9 +80,13 @@
 
   /*Formulario Iniciar Sesión*/
 
+  .formularios {
+    width: 80vw;
+  }
+
   .formulario {
     border-radius: 10px 10px 10px 10px;
-    width: 70vw;
+    width: 80vw;
   }
 
   .imagenformulario img {
@@ -112,7 +120,16 @@
   }
 
   @media only screen and (max-width: 550px) {
+
+    .portada {
+      width: 80vw;
+    }
+
     /*Formulario Iniciar Sesión*/
+
+    .formularios {
+      width: 90vw;
+    }
 
     .formulario {
       width: 80vw;
