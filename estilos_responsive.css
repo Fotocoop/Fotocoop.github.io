@@ -23,7 +23,7 @@
     font-size: 22px;
     margin: 10px auto;
     text-align: center;
-    border-radius: 25px;
+    border-radius: 20px;
     padding: 5px;
     font-family: "Regular";
     display: block;
@@ -40,15 +40,29 @@
 
   /*Sobre Nosotros*/
 
+  .contenedor {
+    width: 350px;
+  }
+
+  .contenedorgrande {
+    width: 80vw;
+  }
+
+  .imagen_valores {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+  }
+
   .mascota {
     display: block;
-    margin: 10px auto;
+    margin: 20px auto;
     border-radius: 10px;
   }
 
   .ubicacion {
     display: block;
-    margin: 10px auto;
+    margin: 20px auto;
     border-radius: 10px;
   }
 
@@ -123,6 +137,21 @@
 
     .portada {
       width: 80vw;
+    }
+
+    .imagen_inicio {
+      width: 250px;
+      height: 250px;
+    }
+
+    .mascota {
+      width: 250px;
+      height: 250px;
+    }
+
+    .ubicacion {
+      width: 250px;
+      height: 250px;
     }
 
     /*Formulario Iniciar Sesión*/

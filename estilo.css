@@ -59,6 +59,15 @@ body {
 
 /*Página principal*/
 
+.portada {
+  display: block;
+  margin: auto;
+  width: 80vw;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px
+}
+
 .eslogan {
   font-size: 22px;
   margin: 10px 100px;
@@ -67,6 +76,27 @@ body {
   background-color: #48E;
   border-radius: 10px;
   padding: 5px;
+  font-family: "Regular";
+}
+
+.imagenes_inicio {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.imagen_inicio {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px #AAA;
+  margin: 20px
+}
+
+h2 {
+  margin: 20px 100px;
+  text-align: justify;
+  color: #000;
   font-family: "Regular";
 }
 
@@ -81,15 +111,6 @@ main {
   margin: 20px
 }
 
-.portada {
-  display: block;
-  margin: auto;
-  width: 70vw;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 10px
-}
-
 /*Sobre Nosotros*/
 
 .sobre_nosotros {
@@ -101,9 +122,29 @@ main {
 
 .contenedor {
   margin: 20px;
-  width: 600px;
+  width: 500px;
   box-shadow: 5px 5px 5px 5px #AAA;
   border-radius: 10px;
+}
+
+.contenedorgrande {
+  margin: 20px;
+  width: 80vw;
+  box-shadow: 5px 5px 5px 5px #AAA;
+  border-radius: 10px;
+}
+
+.imagenes_valores {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.imagen_valores {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px #AAA;
 }
 
 .concepto_sobre_nosotros {
@@ -127,6 +168,7 @@ main {
   width: 300px;
   height: 300px;
   border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px #AAA;
 }
 
 .ubicacion {
@@ -135,6 +177,7 @@ main {
   width: 300px;
   height: 300px;
   border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px #AAA;
 }
 
 /*Formularios Iniciar Sesión*/
