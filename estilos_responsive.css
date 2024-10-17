@@ -19,6 +19,10 @@
 
   /*Página principal*/
 
+  h2 {
+    text-align: center;
+  }
+
   .eslogan {
     font-size: 22px;
     margin: 10px auto;
@@ -64,6 +68,26 @@
     display: block;
     margin: 20px auto;
     border-radius: 10px;
+  }
+
+  /*Servicios*/
+
+  .album {
+    width: 300px;
+    height: 300px;
+  }
+
+  .album img {
+    width: 300px;
+    height: 225px;
+  }
+
+  .texto_album {
+    margin: 5px;
+  }
+  
+  .enlace_album {
+    margin: 5px auto;
   }
 
   /* Sección contactanos */
@@ -135,6 +159,7 @@
 
   @media only screen and (max-width: 550px) {
 
+    /*Página Principal*/
     .portada {
       width: 80vw;
     }
