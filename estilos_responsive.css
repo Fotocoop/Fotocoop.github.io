@@ -20,7 +20,7 @@
   /*Página principal*/
 
   h2 {
-    text-align: center;
+    margin: 10px 40px;
   }
 
   .eslogan {
@@ -49,7 +49,7 @@
   }
 
   .contenedorgrande {
-    width: 80vw;
+    width: 85vw;
   }
 
   .imagen_valores {

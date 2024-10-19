@@ -26,8 +26,26 @@ body {
 .nav-link {
   color: #FFF !important;
   font-family: "Regular";
-  margin: 0 15px;
+  margin: 0 10px;
   padding: 0;
+}
+
+.dropdown-item, 
+.desplegable { 
+  font-family: "Regular";
+  color: #FFF;
+  background: #48E;
+  font-size: 21px;
+}
+
+.dropdown-menu {
+  background: #48E;
+}
+
+.dropdown-item:hover,
+.desplegable:hover {
+  background: #48E;
+  color: #FFF;
 }
 
 .navbar-brand {
@@ -93,13 +111,19 @@ body {
   margin: 20px
 }
 
-h1 
-{
+h1 {
   font-family: "Regular";
   text-align: center;
 }
 
 h2 {
+  margin: 20px 100px;
+  text-align: justify;
+  color: #000;
+  font-family: "Regular";
+}
+
+h3 {
   margin: 20px 100px;
   text-align: justify;
   color: #000;
