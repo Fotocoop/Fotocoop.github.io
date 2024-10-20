@@ -66,6 +66,33 @@ body {
   text-decoration: underline;
 }
 
+/*Slider*/
+
+.slider {
+  width: 80vw;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out; 
+  object-fit: cover;
+}
+
+.active {
+  opacity: 1;
+}
+
 /*Página principal*/
 
 main {
@@ -82,15 +109,6 @@ h2 {
   text-align: justify;
   color: #000;
   font-family: "Regular";
-}
-
-.portada {
-  display: block;
-  margin: auto;
-  width: 80vw;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 10px
 }
 
 .eslogan {
