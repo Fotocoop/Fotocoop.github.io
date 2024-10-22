@@ -1,3 +1,35 @@
+@media (min-width: 1750px)
+{
+  .imagen_inicio
+  {
+    width: 350px;
+    height: 350px;
+  }
+  
+  .contenedor
+  {
+    width: 600px;
+  }
+
+  .album
+  {
+    width: 500px;
+    height: 500px;
+  }
+
+  .album img {
+    border-radius: 10px 10px 0 0;
+    width: 500px;
+    height: 375px;
+    object-fit: cover;
+  }
+
+  .paquete_fotografico {
+    width: 600px;
+  }
+}
+
+
 @media (max-width: 991px) {
   /* Menu de navegacion */
 
@@ -10,14 +42,12 @@
     letter-spacing: 1px;
   }
 
-  .dropdown-menu
-  {
+  .dropdown-menu {
     padding: 0;
     padding-left: 25px;
   }
 
-  .dropdown-item
-  {
+  .dropdown-item {
     padding: 0;
   }
 
@@ -100,6 +130,12 @@
     margin: 5px auto;
   }
 
+  /*Página Paquetes*/
+
+  .paquete_fotografico {
+    width: 350px;
+  }
+  
   /*Formulario Iniciar Sesión*/
 
   .formularios {
