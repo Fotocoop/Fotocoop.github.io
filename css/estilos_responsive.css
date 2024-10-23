@@ -1,18 +1,14 @@
-@media (min-width: 1750px)
-{
-  .imagen_inicio
-  {
+@media (min-width: 1750px) {
+  .imagen_inicio {
     width: 350px;
     height: 350px;
   }
-  
-  .contenedor
-  {
+
+  .contenedor {
     width: 600px;
   }
 
-  .album
-  {
+  .album {
     width: 500px;
     height: 500px;
   }
@@ -135,7 +131,13 @@
   .paquete_fotografico {
     width: 350px;
   }
-  
+
+  /*Formulario pagos*/
+
+  .formulario_pago {
+    width: 80vw;
+  }
+
   /*Formulario Iniciar Sesión*/
 
   .formularios {
@@ -193,6 +195,13 @@
     .ubicacion {
       width: 250px;
       height: 250px;
+    }
+
+    /*Formulario pagos*/
+
+    .formulario_pago
+    {
+      width: 90vw;
     }
 
     /*Formulario Iniciar Sesión*/
