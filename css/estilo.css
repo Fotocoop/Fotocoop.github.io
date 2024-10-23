@@ -318,6 +318,18 @@ h2 {
   text-decoration: none;
 }
 
+/*Formulario de pago*/
+
+.formulario_pago {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px #AAA;
+  box-sizing: border-box;
+  width: 50vw;
+  margin: 20px auto;
+  margin-bottom: 75px;
+}
+
 /*Formularios Iniciar Sesión*/
 
 .introduccion_formulario {

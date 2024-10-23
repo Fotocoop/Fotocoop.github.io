@@ -59,7 +59,27 @@
 </body>
 
 <main>
+    <form action="" method="" class="formulario_pago">
+        <fieldset>
+            <legend>Pago con tarjeta</legend>
 
+            <label for="nombredetarjeta">Nombre de la Tarjeta</label>
+            <input type="text" id="nombredetarjeta" name="nombredetarjeta" required placeholder="Juan Perez">
+
+            <label for="numerodetarjeta">Número de Tarjeta</label>
+            <input type="text" id="numerodetarjeta" name="numerodetarjeta" required
+                pattern="^(\d{4}\s){3}\d{1,4}(\s\d{4}){0,2}\s?\d{0,3}$" placeholder="0000 0000 0000 0000">
+
+            <label for="fechaexpiracion">Fecha de Expiración (MM/AA)</label>
+            <input type="text" id="fechaexpiracion" name="fechaexpiracion" required pattern="^(0[1-9]|1[0-2])\/\d{2}$"
+                placeholder="00/00">
+
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" name="cvv" required pattern="\d{3,4}" placeholder="000">
+
+            <button type="submit" class="boton_formulario">Pagar</button>
+        </fieldset>
+    </form>
 </main>
 
 <footer>
