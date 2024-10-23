@@ -259,6 +259,33 @@ h2 {
   text-decoration: none;
 }
 
+/*Páginas Portafolios*/
+
+.portafolios {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+.portafolios img {
+  border: 3px solid transparent;
+  border-radius: 10px;
+  transition: transform 0.2s;
+  margin: 20px;
+}
+
+.portafolios img:hover {
+  transform: scale(1.05);
+  border-color: #333;
+}
+
+.imagen_galeria {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
 /*Página Paquetes*/
 
 .tablas_precios {
